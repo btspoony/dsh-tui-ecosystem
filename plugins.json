@@ -1,6 +1,6 @@
 {
   "$schema": "plugins 收录列表 · 作者提 PR 或经在线提交审批后更新；网站构建/运行时直接读取本文件",
-  "updatedAt": "2026-09-28",
+  "updatedAt": "2026-10-15",
   "plugins": [
     {
       "name": "dsh-tui",
@@ -645,6 +645,21 @@
       "kind": "plugin",
       "featured": false,
       "addedAt": "2026-09-28"
+    },
+    {
+      "name": "dsh-tool-activator",
+      "displayName": "dsh-tool-activator",
+      "description": "装上它可让 DSH 默认只加载基础工具，其余工具按需通过 activate_tools 激活，显著减少初始上下文占用。安装：dsh plugin add dsh-tool-activator。",
+      "author": "hairyf",
+      "repo": "https://github.com/hairyf/dsh-tool-activator",
+      "npm": null,
+      "tags": [
+        "插件",
+        "工具"
+      ],
+      "kind": "plugin",
+      "featured": false,
+      "addedAt": "2026-10-15"
     }
   ]
 }
